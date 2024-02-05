@@ -19,14 +19,24 @@ For support, email tanagitanagiakori@gmail.com or message me on discord `rawrx3.
 
 ## Usage/Examples
 
+ **wifi_pw.py**
+  
+*Print Data:*
 ```
-python main.py
+python wifi_pw.py
 ```
+or you can run **wifi_pw.bat**  
 
+*Use in python script:*
+```
+import wifi_pw
+
+ssids, passwords = wifi_pw.main()
+```
 
 ## Installation
 
-Install my-project with npm
+Install required libs with python pip
 
 ```msdos
 pip install -r requirements.txt
